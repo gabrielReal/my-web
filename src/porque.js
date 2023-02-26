@@ -1,9 +1,5 @@
 import { Circle } from "./Circle";
 
-
-
-export const Porque = () => {
-
 const porques = [
     {
         title: "Diseño UX",
@@ -26,6 +22,7 @@ const porques = [
     }
 ];
 
+export const Porque = () => {
 
   return (
     <>

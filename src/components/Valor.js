@@ -1,10 +1,6 @@
 import React from "react";
 import { Circle } from "./Circle";
 
-
-
-export const Valor = () => {
-
 const porques = [
     {   id:'qwe',
         title: "Diseño UX",
@@ -26,6 +22,10 @@ const porques = [
         text: "Busco que el flujo de navegación e interacción resulte accesible e intuitivo para el usuario, optimizando el tiempo de cada proceso.",
     }
 ];
+
+export const Valor = () => {
+
+
 
 
   return (
