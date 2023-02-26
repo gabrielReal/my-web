@@ -1,0 +1,17 @@
+recuerda que cuando hagas renderizado de listas en cualquier lugar el id tiene que ser unico, sino react no sabe que renderizar, por ende tendra un comportamiento super raro y va a renderizar lo que le de la gamboaboton
+
+no necesitas estados para manejar data estatica que traes de aqui mismo de tu proyecto, puedes renderizarla automatimcamente desde el import, por ejemplo en la parte de projectsDB
+
+si vas a filtrar algo no necesitas crear un estado como tal puedes usar 'derived state' , busca en google mas info, pero en resumen es manejar data que va a cambiar basada en otro estado sin repetir la que ya tienes
+
+trata de exportar las cosas nombradas para que cuando importes sepa que estas importando y no cambies el nombre, por ejemplo en donde se hace el filtrado estas exportando 
+export default Ajaxhooks, y eso lo estas usando en otro lado con el nombre de 'MODALS' cuando ahi mismo tienes otro MODALS que no estas manejando
+
+trata de nombrar tus componentes con jsx y funciones normales con js, asi sabras si el problema lo tienes en un compoonente o en alguna funcionalidad que estas aplicando
+
+trata de usar mas el 'optional chaining' porque si no tendras data por ahi regada devolviendo undefined a lo loco sin manejar el errors
+
+la libreria que estas usando de ReactOwlLibrary esta funcionando con componente de clases asi que trata de cambiar eso
+
+la data estatica que estas usando trata de colocarla fuera de componentes porque recuerda que los objetos siempre seran diferente en un nuevo render porque se estan pasando por referencia
+
