@@ -46,7 +46,7 @@ import taycomIdentidadBtn from "../assets/portfolio/taycom-identidad-boton.jpg"
 import taycomIdentidad from "../assets/portfolio/taycom-identidad-01.jpg";
 import taycomIdentidad2 from "../assets/portfolio/taycom-identidad-02.jpg";
 import exoticBtn from "../assets/portfolio/exotic-boton.jpg";
-import exotic01 from "../assets/portfolio/exotic-01.jpg";
+// import exotic01 from "../assets/portfolio/exotic-01.jpg";
 import exotic02 from "../assets/portfolio/exotic-02.jpg";
 import exotic03 from "../assets/portfolio/exotic-03.jpg";
 import fundalBtn from "../assets/portfolio/Fundal-boton.jpg"
@@ -236,7 +236,7 @@ const projectsDB = [
       slide02: calvo02
     },
     {
-      id: 112,
+      id: 122,
       client: "Maserati Argentina",
       type: "Landing Page",
       category: ['all', 'web'],
@@ -249,7 +249,7 @@ const projectsDB = [
       slide02: maserati02
     },
     {
-      id: 113,
+      id: 123,
       client: "Castro & Asociados | Broker de Seguros",
       type: "Landing Page",
       category: ['all', 'web'],
@@ -262,7 +262,7 @@ const projectsDB = [
       slide02: castrolanding02
     },
     {
-      id: 114,
+      id: 124,
       client: "TAYCOM S.A. | Logística",
       type: "Folleto Institucional",
       category: ['all', 'diseno'],

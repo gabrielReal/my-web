@@ -9,7 +9,7 @@ import { TestimonioSlide } from "./TestimonioSlide";
 
 export const Testimonio = () => {
 
-    const [testimonios, setTestimonios] = useState([]);
+    const [, setTestimonios] = useState([]);
 
     const options = {
         nav: true,
