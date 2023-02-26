@@ -17,7 +17,9 @@ const MainContext = () => {
 
 const { darkMode } = useContext(DarkModeContext);
   return (
-    <main className={darkMode ? `` : `light`}>
+    <main style={{
+      overflowY:'hidden'
+    }} className={darkMode ? `` : `light`}>
             <Header />
             <MainImage />
             <QuienSoy />
