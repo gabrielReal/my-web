@@ -13,5 +13,5 @@ trata de usar mas el 'optional chaining' porque si no tendras data por ahi regad
 
 la libreria que estas usando de ReactOwlLibrary esta funcionando con componente de clases asi que trata de cambiar eso
 
-la data estatica que estas usando trata de colocarla fuera de componentes porque recuerda que los objetos siempre seran diferente en un nuevo render porque se estan pasando por referencia
+la data estatica que estas usando trata de colocarla fuera de componentes porque recuerda que los objetos siempre seran diferente en un nuevo render porque se estan pasando por referencia.
 
